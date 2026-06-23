@@ -1,6 +1,7 @@
 import gradio as gr
 from groq import Groq
 import json
+import os
 
 # Harm taxonomy definitions
 HARM_CATEGORIES = {
