@@ -326,4 +326,4 @@ with gr.Blocks(title="Content Moderation Chatbot", theme=gr.themes.Ocean()) as a
 
 # Launch the app
 if __name__ == "__main__":
-    app.launch(share=True)
+    app.launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
